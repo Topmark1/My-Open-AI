@@ -24,8 +24,7 @@ function Chat({chatId}:Props) {
     ),
     orderBy("createAt","asc")
   ));
-console.log('messages')
-console.log(messages)
+
   return (
     <div className="flex-1  overflow-y-auto overflow-x-hidden">
       {messages?.empty && (
